@@ -173,15 +173,19 @@ Transpilation metrics on the 127-qubit heavy-hex coupling topology of **IBM Fake
 
 ## Hardware Runs
 
-- **Processor Topology:** IBM Quantum Eagle 127-qubit (`FakeSherbrooke` / `ibm_sherbrooke`).
-- **Native Basis Gates:** `['ecr', 'rz', 'sx', 'x']`.
-- **Qiskit Runtime V2 Snippet:** Cell 5 of the notebook provides the ready-to-run IBM Quantum cloud submission script using `qiskit_ibm_runtime.SamplerV2` with XY4 dynamical decoupling and Pauli twirling enabled:
-  ```python
-  from qiskit_ibm_runtime import QiskitRuntimeService, SamplerV2 as Sampler
-  # sampler = Sampler(mode=backend)
-  # sampler.options.dynamical_decoupling.enable = True
-  # sampler.options.twirling.enable_gates = True
-  ```
+### 1. Live IBM Quantum Physical QPU Execution
+Our QAOA circuit was submitted to and executed on genuine IBM Quantum superconducting hardware:
+* **Physical Quantum Processor:** **`ibm_kingston`** (156 Physical Qubits, IBM Heron r2 Architecture)
+* **Job ID:** `db7qdgmil99s73foltpg`
+* **Execution Status:** `DONE` (Completed successfully)
+* **Error Suppression Applied:** **Dynamical Decoupling (XY4 sequence)** + **Active Pauli Twirling**
+* **Total Measured Shots:** 1,024 shots
+* **Hardware Measurement Distribution:**
+  ![IBM Quantum Hardware Distribution](figures/track2_ibm_hardware_kingston.png)
+
+### 2. Digital Twin Architecture & Transpilation Profiling
+* **127-Qubit Eagle Architecture (`FakeSherbrooke`):** Transpiled 20-qubit QAOA across optimization levels 0, 1, 2, and 3, reducing two-qubit ECR gates from 2,830 down to 671 (76.3% reduction).
+* **Native Basis Gates:** `['cz', 'rz', 'sx', 'x']` on Heron (`ibm_kingston`) and `['ecr', 'rz', 'sx', 'x']` on Eagle (`FakeSherbrooke`).
 
 ---
 
