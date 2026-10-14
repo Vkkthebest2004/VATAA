@@ -6,3 +6,5 @@ matplotlib>=3.9.0
 jupyterlab>=4.0.0
 nbconvert>=7.16.0
 ipykernel>=6.29.0
+pandas>=3.0.0
+qiskit-ibm-runtime>=0.50.0

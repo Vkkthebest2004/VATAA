@@ -1,0 +1,26 @@
+[
+  {
+    "Opt Level": 0,
+    "Circuit Depth": 4974,
+    "2-Qubit Gates (ECR/CZ)": 2830,
+    "1-Qubit Gates": 26769
+  },
+  {
+    "Opt Level": 1,
+    "Circuit Depth": 1444,
+    "2-Qubit Gates (ECR/CZ)": 1873,
+    "1-Qubit Gates": 8366
+  },
+  {
+    "Opt Level": 2,
+    "Circuit Depth": 1116,
+    "2-Qubit Gates (ECR/CZ)": 671,
+    "1-Qubit Gates": 4788
+  },
+  {
+    "Opt Level": 3,
+    "Circuit Depth": 1403,
+    "2-Qubit Gates (ECR/CZ)": 794,
+    "1-Qubit Gates": 4880
+  }
+]
