@@ -322,14 +322,14 @@ def create_track2_slides():
         ax.text(53, 56, "  jupyter notebook Quantum_Portfolio_Optimization_QAOA.ipynb", fontsize=9, color='#38bdf8')
         
         ax.text(53, 48, "2. Tutorial & Academic Attribution:", fontsize=9.5, fontweight='bold', color='#f8fafc')
-        ax.text(53, 43, "• Adapted from BasQ Qiskit Fall Fest 2026 tutorials by Benjamin Tirado.", fontsize=8.8, color='#cbd5e1')
-        ax.text(53, 39, "• Farhi et al. (2014) - Quantum Approximate Optimization Algorithm.", fontsize=8.8, color='#cbd5e1')
-        ax.text(53, 35, "• Egger et al. (2021) - Warm-Starting Quantum Optimization.", fontsize=8.8, color='#cbd5e1')
-        ax.text(53, 31, "• Sachdeva et al. (2024) - Utility-Scale Optimization on IBM Hardware.", fontsize=8.8, color='#cbd5e1')
+        ax.text(53, 43, "• BasQ Qiskit Fall Fest 2026: Benjamin Tirado, Angel Rodriguez, Miguel Angel Jimenez.", fontsize=8.4, color='#cbd5e1')
+        ax.text(53, 39, "• Farhi et al. (2014) - QAOA | Egger et al. (2021) - Warm-Starting.", fontsize=8.4, color='#cbd5e1')
+        ax.text(53, 35, "• Sachdeva et al. (2024) - Utility-Scale QAOA | Sack & Serbyn (2021) - TQA.", fontsize=8.4, color='#cbd5e1')
+        ax.text(53, 31, "• Special thanks to Quantica & CQT IIIT-Delhi for faculty mentorship.", fontsize=8.4, color='#38bdf8')
         
         ax.text(53, 23, "3. AI Tools Disclosure:", fontsize=9.5, fontweight='bold', color='#f8fafc')
-        ax.text(53, 18, "Google Antigravity AI pair programming assistant used for code drafting,", fontsize=8.8, color='#94a3b8')
-        ax.text(53, 14, "optimization benchmarking, and vector slide generation.", fontsize=8.8, color='#94a3b8')
+        ax.text(53, 18, "Google Antigravity AI pair programming assistant used for code drafting,", fontsize=8.4, color='#94a3b8')
+        ax.text(53, 14, "continuous optimization routines, and vector slide generation (Rule 5 compliant).", fontsize=8.4, color='#94a3b8')
         
         pdf.savefig(fig)
         plt.close()

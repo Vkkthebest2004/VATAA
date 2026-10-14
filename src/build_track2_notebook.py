@@ -648,13 +648,14 @@ add_md(r'''
 ---
 
 ### <b>Credits & Attribution</b>
-- **Track Tutorial:** Adapted from the BasQ Qiskit Fall Fest 2026 tutorials by **Benjamin Tirado** (CC BY 4.0 license, Apache 2.0 code).
+- **Track Tutorial:** Adapted from the BasQ Qiskit Fall Fest 2026 tutorials by **Benjamin Tirado, Angel Rodriguez, and Miguel Angel Jimenez** (CC BY 4.0 license, Apache 2.0 code).
+- **Event Organizers & Mentorship:** Special thanks to **Quantica** and the **Centre for Quantum Technologies (CQT)** at IIIT-Delhi for faculty mentorship and hosting the hackathon, **IBM Quantum** for cloud hardware access, and keynote speaker **Prof. Bhavna Bose Gupta** (SVKM's NMIMS MPSTME).
 - **Core Scientific References:**
   1. *Farhi, Goldstone, Gutmann*, "A Quantum Approximate Optimization Algorithm", arXiv:1411.4028 (2014).
   2. *Egger et al.*, "Warm-starting quantum optimization", *Quantum* 5, 479 (2021).
   3. *Sachdeva et al.*, "Quantum optimization at utility scale", arXiv:2406.01743 (2024).
   4. *Sack & Serbyn*, "Quantum annealing initialization of QAOA", *Phys. Rev. Research* 3, 023085 (2021).
-- **AI Tool Disclosure:** Google Antigravity AI pair programming assistant was utilized for code scaffolding, numerical benchmarking, and vector slide generation in full compliance with hackathon rules.
+- **AI Tool Disclosure:** Google Antigravity AI pair programming assistant was utilized for code scaffolding, continuous relaxation optimization routines, and vector slide generation in full compliance with Rule 5 of the hackathon briefing.
 ''')
 
 notebook_dict = {

@@ -293,11 +293,12 @@ jupyter notebook Quantum_Portfolio_Optimization_QAOA.ipynb
 
 ## Credits & References
 
-- **Track Tutorial Reference:** Adapted from the BasQ Qiskit Fall Fest 2026 tutorials by **Benjamin Tirado** (text licensed under CC BY 4.0, code under Apache 2.0).
+- **Track Tutorial Reference:** Adapted from the BasQ Qiskit Fall Fest 2026 tutorials by **Benjamin Tirado, Angel Rodriguez, and Miguel Angel Jimenez** (text licensed under CC BY 4.0, code under Apache 2.0).
+- **Event Organizers & Mentorship:** Special thanks to **Quantica** (The Quantum Computing Society at IIIT-Delhi) and the **Centre for Quantum Technologies (CQT)** at IIIT-Delhi for faculty mentorship and hosting the event, **IBM Quantum** for hardware access, and keynote speaker **Prof. Bhavna Bose Gupta** (SVKM's NMIMS MPSTME).
 - **Core Scientific References:**
   1. *Farhi, Goldstone, Gutmann*, "A Quantum Approximate Optimization Algorithm", *arXiv:1411.4028* (2014).
   2. *Egger, Gambetta, Woerner*, "Warm-starting quantum optimization with an application to portfolio optimization", *Quantum* 5, 479 (2021).
   3. *Hadfield et al.*, "From the Quantum Approximate Optimization Algorithm to a Quantum Alternating Operator Ansatz", *Algorithms* 12(2), 34 (2019).
   4. *Sack & Serbyn*, "Quantum annealing initialization of the quantum approximate optimization algorithm", *Quantum Sci. Technol.* 6, 024003 (2021).
-  5. *Sachdeva et al.*, "Parameter transfer in quantum approximate optimization", *Phys. Rev. Applied* (2024).
-- **AI Tools Disclosure:** Google Antigravity AI pair programming assistant was utilized for code scaffolding, continuous relaxation optimization routines, and vector slide rendering in strict accordance with the hackathon rules.
+  5. *Sachdeva et al.*, "Quantum optimization at utility scale", *arXiv:2406.01743* (2024).
+- **AI Tools Disclosure:** Google Antigravity AI pair programming assistant was utilized for code scaffolding, continuous relaxation optimization routines, and vector slide rendering in strict accordance with Rule 5 of the hackathon briefing.
