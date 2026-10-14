@@ -1,0 +1,8 @@
+qiskit>=2.5.0
+qiskit-aer>=0.17.0
+scipy>=1.14.0
+numpy>=2.0.0
+matplotlib>=3.9.0
+jupyterlab>=4.0.0
+nbconvert>=7.16.0
+ipykernel>=6.29.0

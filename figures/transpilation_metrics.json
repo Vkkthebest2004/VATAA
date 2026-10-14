@@ -1,0 +1,18 @@
+{
+  "Sequential (Opt Level 0)": {
+    "depth": 67,
+    "cnot": 110
+  },
+  "Sequential (Opt Level 3)": {
+    "depth": 63,
+    "cnot": 110
+  },
+  "Brick-Wall (Opt Level 0)": {
+    "depth": 40,
+    "cnot": 110
+  },
+  "Brick-Wall (Opt Level 3)": {
+    "depth": 36,
+    "cnot": 110
+  }
+}
